@@ -6,12 +6,19 @@ import "./HeroStyles.css";
           <a href="/">Travel Plan</a> */
 }
 
-function Hero() {
+function Hero(props) 
+{
   return (
     <>
-      <div className="hero">
-        <img alt="HeroImg" src="tripsy\src\Assets\1.jpg" />
-        <div className="hero-text"></div>
+      <div className={props.cName}>
+        <img
+          alt="HeroImg"
+          src={props.heroImg}
+        />
+        <div className="herotext"></div>
+        <h1>{props.title}</h1>
+        <p>{props.text}</p>
+        <a href={props.url} className={props.btnClass}>{props.btntext}</a>
       </div>
     </>
   );
