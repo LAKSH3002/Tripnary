@@ -15,10 +15,11 @@ function Hero(props)
           alt="HeroImg"
           src={props.heroImg}
         />
-        <div className="herotext"></div>
+        <div className="hero-text">
         <h1>{props.title}</h1>
         <p>{props.text}</p>
         <a href={props.url} className={props.btnClass}>{props.btntext}</a>
+        </div>
       </div>
     </>
   );

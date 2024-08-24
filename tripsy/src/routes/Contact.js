@@ -5,7 +5,6 @@ function Contact() {
     // used when we have multiple components
     <>
       <Navbar />
-      <h1>This is Contact</h1>
     </>
   );
 }
