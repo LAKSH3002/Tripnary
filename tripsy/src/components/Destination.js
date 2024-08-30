@@ -16,7 +16,7 @@ const Destination = () => {
         </div>
 
         <div className="images-dest">
-            <img alt="img" src=""/>
+          <img alt="img" src="" />
         </div>
       </div>
     </div>
