@@ -1,6 +1,6 @@
 .hero {
   width: 100%;
-  height: 100vh;
+  height: 88vh;
   position: relative;
 }
 
@@ -13,7 +13,7 @@ img {
 
 .hero-text {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
@@ -63,12 +63,12 @@ img {
 
 /* About page styling with respect to Hero*/
 
-.aboutclass img{
+.aboutclass img {
   width: 100%;
   height: 500px;
   position: relative;
 }
 
-.aboutclass h1{
-padding-top: 4rem !important;
+.aboutclass h1 {
+  padding-top: 4rem !important;
 }
