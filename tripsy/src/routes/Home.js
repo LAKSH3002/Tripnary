@@ -2,6 +2,7 @@ import Destination from "../components/Destination";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Trip from "../components/Trip";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       />
       <Destination/>
       <Trip/>
+      <Footer/>
     </>
   );
 }
