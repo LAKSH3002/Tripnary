@@ -7,8 +7,8 @@
   font-size: 3rem;
 }
 
-.Destination p{
-    margin-bottom: 2rem;
+.Destination p {
+  margin-bottom: 2rem;
 }
 
 .first-dest {
@@ -17,6 +17,15 @@
   justify-content: space-between;
   margin-top: 4.5rem;
 }
+
+.first-dest-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: centre;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
 .Desc-text {
   width: 45%;
   text-align: start;
@@ -48,15 +57,28 @@
 }
 
 @media screen and (max-width: 650px) {
-  .Destination {
+
+  .Destination 
+  {
     margin: 0rem 2rem;
   }
-  .first-dest {
+
+  .first-dest 
+  {
     flex-direction: column-reverse;
     margin-top: 2.5rem;
     align-items: center;
     justify-content: space-between;
   }
+
+  .first-dest-reverse 
+  {
+    flex-direction: column-reverse;
+    margin-top: 4.5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .Desc-text {
     width: 100%;
   }
