@@ -10,14 +10,6 @@ function Contact() {
     // used when we have multiple components
     <>
       <Navbar />
-      <Hero
-        cName="aboutclass"
-        heroImg={AboutImg}
-        title="Contact Us"
-        text="Want to book an Extraordinary trip, Meet us!!!"
-        btntext=""
-        url="/"
-      />
       <ContactForm/>
       <Footer />
     </>
