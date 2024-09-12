@@ -34,6 +34,7 @@ function Trip() {
           opening of the bridge in October 1971, Lake Havasu City was permanently put on the 
           map as a world-famous attraction."
         />
+        
       </div>
     </div>
   );

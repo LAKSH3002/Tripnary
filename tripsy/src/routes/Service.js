@@ -10,14 +10,6 @@ function Service() {
     // used when we have multiple components
     <>
       <Navbar></Navbar>
-      <Hero
-        cName="aboutclass"
-        heroImg={AboutImg}
-        title="All Service Provided"
-        text="Booking Tickets, Itenary Set Up!!"
-        btntext=""
-        url="/"
-      />
       <Trip></Trip>
       <Footer />
     </>

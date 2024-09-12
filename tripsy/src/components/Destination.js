@@ -38,8 +38,8 @@ const Destination = () => {
         He was respected and admired for his contributions towards a unified and independent India.
         Patel passed away on December 15, 1950, leaving an enduring legacy as a revered leader.
         "
-        img1={statue}
-        img2={statue2}
+        img1={statue2}
+        img2={statue}
       />
     </div>
   );

@@ -1,6 +1,7 @@
 .Destination {
-  margin-left: 6rem;
-  margin-right: 6rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
 }
 
 .Destination h1 {
@@ -31,6 +32,7 @@
   text-align: start;
   font-size: 1.1rem;
 }
+
 .Desc-text h2 {
   padding-bottom: 1rem;
 }
@@ -44,7 +46,7 @@
 
 .images-dest img {
   width: 49%;
-  height: 350px;
+  height: 320px;
   object-fit: cover;
   border-radius: 6px;
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.1);
