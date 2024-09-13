@@ -1,14 +1,26 @@
-import React from 'react'
+import { Component } from "react";
 import "./Tripstyles.css";
 
-export default function Tripdata(props) {
-  return (
-    <div className='t-card'>
-      <div className='t-image'>
-        <img src = {props.image} alt='image'></img>
-      </div>
-      <h4>{props.heading}</h4>
-      <p>{props.text}</p>
-    </div>
-  )
+class TripData extends Component {
+  render() {
+    return (
+      <>
+        <div className="trip">
+          <div className={this.props.className}>
+            <div className="trip-text">
+              <h2>{this.props.heading}</h2>
+              <p>{this.props.text}</p>
+            </div>
+
+            <div className="images-trip">
+              <img alt="img" src={this.props.img1} />
+              <img alt="img" src={this.props.img2} />
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  }
 }
+
+export default TripData;

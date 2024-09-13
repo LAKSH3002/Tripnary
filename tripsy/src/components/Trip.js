@@ -1,43 +1,47 @@
-import Tripdata from "./Tripdata";
+import park1 from "../Assets/Dineyland.jpeg";
+import park2 from "../Assets/Disney2.jpeg";
+import statue from "../Assets/statue.jpg";
+import statue2 from "../Assets/statue2.jpeg";
+import TripData from "./Tripdata";
 import "./Tripstyles.css";
-import Img1 from "../Assets/atlantis.jpg";
-import Img2 from "../Assets/eiffle_tower.jpg";
-import Img3 from "../Assets/london_bridge.jpg";
 
-function Trip() {
+function Trip () {
   return (
-    <div className="trip">
+    <div className="Trip">
       <h1>Recent Trips</h1>
-      <p>You can discover unique Destinations using Google Maps.</p>
-      <div className="tripcard">
-        <Tripdata
-          image={Img1}
-          heading="Trip To Dubai"
-          text="The hotel is known for its extravagant water-themed attractions, 
-          including the Aquaventure Waterpark and The Lost Chambers Aquarium. 
-          Additionally, Atlantis offers fine dining options, stunning views of the 
-          Arabian Gulf, and a vibrant nightlife scene, contributing to its appeal 
-          as a sought-after destination"
-        />
-        <Tripdata
-          image={Img2}
-          heading="Trip To Paris"
-          text="Like all towers, it allows us to see and to be seen, with a spectacular 
-          ascent, a unique panoramic view of Paris, and a glittering beacon in the skies of
-          the Capital. The Tower also represents the magic of light. Its lighting, its sparkling 
-          lights, and its beacon shine and inspire dreams every evening."
-        />
-        <Tripdata
-          image={Img3}
-          heading="Trip To London"
-          text="The London Bridge is known as the world's largest antique, and with the 
-          opening of the bridge in October 1971, Lake Havasu City was permanently put on the 
-          map as a world-famous attraction."
-        />
-        
-      </div>
+      <p className="hey">You can discover our unique Trips using The Tripsy App</p>
+
+      <TripData
+        className="first-trip"
+        heading="Disney Land"
+        text="Disneyland Park is a theme park in Anaheim, California, United
+            States. It is the first Disneyland. It was opened on July 17, 1955,
+            by Walt Disney, the man who invented Mickey Mouse. It is one of the
+            most popular theme parks in the world. Disneyland Park celebrated
+            its 67th anniversary on July 17, 2022. Disneyland Park consists of
+            nine themed lands and a number of concealed backstage areas, and
+            occupies over 100 acres (40 ha) with the new addition of Mickey and
+            Minnie's Runaway Railway that came to Mickey's Toontown in 2023"
+        img1={park1}
+        img2={park2}
+      />
+
+      <TripData
+        className="first-trip-reverse"
+        heading="Statue of Unity"
+        text="
+        Sardar Vallabhbhai Patel, born on October 31, 1875, played a crucial role
+        in uniting India's princely states post-independence, earning him the title 
+        Iron Man of India. Patel's leadership and vision were instrumental in unifying 
+        India as the first Deputy Prime Minister and Home Minister. 
+        He was respected and admired for his contributions towards a unified and independent India.
+        Patel passed away on December 15, 1950, leaving an enduring legacy as a revered leader.
+        "
+        img1={statue2}
+        img2={statue}
+      />
     </div>
   );
-}
+};
 
 export default Trip;
