@@ -9,7 +9,7 @@
   font-size: 3rem;
 }
 
-.hey{
+.hey {
   font-size: 1.5rem;
 }
 
@@ -37,6 +37,7 @@
 .trip-text h2 {
   padding-bottom: 1rem;
 }
+
 .images-trip {
   position: relative;
   width: 50%;
@@ -46,11 +47,12 @@
 }
 
 .images-trip img {
-  width: 49%;
+  width: 48%;
   height: 320px;
   object-fit: cover;
   border-radius: 6px;
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .images-trip img:nth-child(2) {
@@ -60,22 +62,18 @@
 }
 
 @media screen and (max-width: 650px) {
-
-  .Trip 
-  {
+  .Trip {
     margin: 0rem 2rem;
   }
 
-  .first-trip 
-  {
+  .first-trip {
     flex-direction: column-reverse;
     margin-top: 2.5rem;
     align-items: center;
     justify-content: space-between;
   }
 
-  .first-trip-reverse 
-  {
+  .first-trip-reverse {
     flex-direction: column-reverse;
     margin-top: 4.5rem;
     align-items: center;

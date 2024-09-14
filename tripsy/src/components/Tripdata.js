@@ -13,8 +13,8 @@ class TripData extends Component {
             </div>
 
             <div className="images-trip">
-              <img alt="img" src={this.props.img1} />
-              <img alt="img" src={this.props.img2} />
+              <img alt="image" src={this.props.img1} />
+              <img alt="image" src={this.props.img2} />
             </div>
           </div>
         </div>
