@@ -62,6 +62,7 @@
   border: none;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  background-color: rgb(219, 215, 205);
 }
 
 .button:hover {

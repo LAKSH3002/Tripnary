@@ -9,6 +9,7 @@ export default function Destinationdata(props) {
       </div>
       <h4>{props.heading}</h4>
       <p>{props.text}</p>
+      <button className='cardbutton'>{props.buttontext}</button>
     </div>
   )
 }

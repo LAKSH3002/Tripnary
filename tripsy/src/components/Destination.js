@@ -12,7 +12,7 @@ function Destination() {
     <div className="dest">
       <h1>Popular Destinations</h1>
       <p className="heading">
-        Tours give you the oppurtunity to see a lot, within a time frame.
+        The Following Are the Most Popular Places to Visit!!
       </p>
       <div className="destcard">
         <Destinationdata
@@ -23,6 +23,7 @@ function Destination() {
           Additionally, Atlantis offers fine dining options, stunning views of the 
           Arabian Gulf, and a vibrant nightlife scene, contributing to its appeal 
           as a sought-after destination"
+          buttontext="Prepare My Itenary"
         />
         <Destinationdata
           image={Img2}
@@ -31,13 +32,16 @@ function Destination() {
           ascent, a unique panoramic view of Paris, and a glittering beacon in the skies of
           the Capital. The Tower also represents the magic of light. Its lighting, its sparkling 
           lights, and its beacon shine and inspire dreams every evening."
+          buttontext="Prepare My Itenary"
         />
         <Destinationdata
           image={Img3}
           heading="London"
           text="The London Bridge is known as the world's largest antique, and with the 
           opening of the bridge in October 1971, Lake Havasu City was permanently put on the 
-          map as a world-famous attraction."
+          map as a world-famous attraction.The Tower also represents the magic of light. Its lighting, its sparkling 
+          lights, and its beacon shine and inspire dreams every evening."
+          buttontext="Prepare My Itenary"
         />
       </div>
 
@@ -48,7 +52,8 @@ function Destination() {
           text="The city comprises five boroughs, each coextensive with a respective county. 
           New York is a global center of finance and commerce, culture, technology, entertainment 
           and media, academics and scientific output, the arts and fashion, and, as home to the 
-          headquarters of the United Nations, international diplomacy."
+          headquarters of the United Nations, international diplomacy.people "
+          buttontext="Prepare My Itenary"
         />
         <Destinationdata
           image={Img5}
@@ -57,6 +62,7 @@ function Destination() {
           New South Wales. Sydney is located on Australia's south-east coast of the Tasman Sea. 
           Inhabitants of Sydney are called Sydneysiders, comprising a cosmopolitan and international
           population of people from numerous places around the world."
+          buttontext="Prepare My Itenary"
         />
         <Destinationdata
           image={Img6}
@@ -64,7 +70,8 @@ function Destination() {
           text="The Maldives is a republic lies south-west of the Indian sub-continent. 
           It is made up of a chain of nearly 1,200 islands, most of them uninhabited. 
           None of the coral islands stand more than 1.8 metres (six feet) above sea level, 
-          making the country vulnerable to any rise in sea levels associated with global warming"
+          making the country vulnerable to any rise in sea levels associated with global warming people from numerous places around the world."
+          buttontext="Prepare My Itenary"
         />
       </div>
     </div>
