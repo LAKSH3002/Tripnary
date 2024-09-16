@@ -8,15 +8,8 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
 
-  const handleClick = () => 
-  {
+  const handleClick = () => {
     setClicked(!clicked);
-  };
-
-  const navigate = useNavigate(); // Hook for navigation
-
-  const handlebutton = () => {
-    navigate('/Signup'); // Navigate to the "/about" page
   };
 
   return (
@@ -38,12 +31,22 @@ const Navbar = () => {
             </li>
           );
         })}
-        
-          <button className="button" onClick={handlebutton}>Sign Up</button>
-        
       </ul>
     </nav>
   );
 };
 
 export default Navbar;
+
+/*
+
+const navigate = useNavigate(); // Hook for navigation
+
+const handlebutton = () => {
+navigate("/Signup"); // Navigate to the "/Signup" page  
+};
+
+<button className="button" onClick={handlebutton}>
+Sign Up
+</button>
+*/
