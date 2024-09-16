@@ -45,6 +45,11 @@ img {
   color: #222;
 }
 
+.show:hover{
+  color: red;
+  background-color: black;
+}
+
 @media screen and (max-width: 650px) {
   .hero-text h1 {
     padding: 10px 20px;

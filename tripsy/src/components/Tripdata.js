@@ -9,7 +9,9 @@ class TripData extends Component {
           <div className={this.props.className}>
             <div className="trip-text">
               <h2>{this.props.heading}</h2>
-              <p>{this.props.text}</p>
+              <p><b>Day 1: </b>{this.props.text}</p>
+              <p><b>Day 2: </b>{this.props.text2}</p>
+              <p>{this.props.text6}</p>
             </div>
 
             <div className="images-trip">

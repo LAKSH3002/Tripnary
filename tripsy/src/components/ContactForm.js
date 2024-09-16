@@ -8,8 +8,9 @@ export default function ContactForm() {
       <form>
         <input placeholder='Enter Your Name'/>
         <input placeholder='Enter Your Email ID'/>
-        <input placeholder='Enter Your Subject'/>
-        <textarea placeholder='Message' rows='4'></textarea>
+        <input placeholder='Enter Your Contact'/>
+        <input placeholder='Enter Your Desired Destination'/>
+        <textarea placeholder='Shoot us Your Message!!!!!' rows='6'></textarea>
         <button>Send Message</button>
       </form>
     </div>

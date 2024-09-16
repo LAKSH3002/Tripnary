@@ -7,25 +7,24 @@ import bldg2 from "../Assets/burjkhalifa.jpeg";
 import TripData from "./Tripdata";
 import "./Tripstyles.css";
 
-function Trip() 
-{
+function Trip() {
   return (
     <div className="Trip">
-      <h1>Recent Trips</h1>
+      <h1>Sample Itenary of Few Places</h1>
       <p className="hey">
-        You can discover our unique Trips using The Tripsy App
+        Check out our Premium Subscription to Get Full Itenary, Hotel Status,
+        Transport Method!!!
       </p>
 
       <TripData
         className="first-trip"
-        heading="Disney Land"
-        text="Disneyland Park is a theme park in Anaheim, California, United
-            States. It is the first Disneyland. It was opened on July 17, 1955,
-            by Walt Disney, the man who invented Mickey Mouse. Disneyland Park consists of
-            nine themed lands and a number of concealed backstage areas, and
-            occupies over 100 acres (40 ha) with the new addition of Mickey and
-            Minnie's Runaway Railway that came to Mickey's Toontown in 2023. A TOTAL 
-            OF 1567 PEOPLE JOINED THE TRIP - MAKING IT THE MOST POPULAR TRIP OF TRIPSY."
+        heading="Hong Kong"
+        text=" Arrival & Kowloon Exploration: Visit Wong Tai Sin Temple in Morning, Kowloon Walled City Park in Afternoon and Symphony of Lights Show in Evening"
+        text2="Hong Kong Island Highlights"
+        text3="Lantau Island & Disneyland"
+        text4="Cultural Exploration & Shopping"
+        text5="Nature & Departure"
+        text6="To Get Personalised Itenary Click The Following Button!"
         img1={park1}
         img2={park2}
       />
@@ -33,15 +32,12 @@ function Trip()
       <TripData
         className="first-trip-reverse"
         heading="Statue of Unity"
-        text="
-        Sardar Vallabhbhai Patel, born on October 31, 1875, played a crucial role
-        in uniting India's princely states post-independence, earning him the title 
-        Iron Man of India. Patel's leadership and vision were instrumental in unifying 
-        India as the first Deputy Prime Minister and Home Minister. 
-        He was respected and admired for his contributions towards a unified and independent India.
-        An Extraordinary Mann!!!!!!!
-        950 PEOPLE JOINED US IN THIS TRIP.
-        "
+        text=" Arrival & Exploring the Statue of Unity"
+        text2=" Nature & Adventure"
+        text3=" Cultural Immersion & Tribal Experience"
+        text4=" Adventure & Scenic Views"
+        text5=" Relaxation & Departure"
+        text6="To Get Personalised Itenary Click The Following Button!"
         img1={statue2}
         img2={statue}
       />
@@ -49,10 +45,12 @@ function Trip()
       <TripData
         className="first-trip"
         heading="Dubai"
-        text="Dubai is the second largest emirate in the United Arab Emirates (UAE) sharing borders with Abu Dhabi in the south, 
-        Sharjah in the northeast, and the Sultanate of Oman in the southeast. 
-        The emirate of Dubai covers an area of 4,114 square kilometres. In This Trip a total of 786 people Joined us
-        Making it the 3rd largest Trip for Tripsy."
+        text="Arrival & Exploring Modern Dubai"
+        text2="Palm Jumeirah, Beaches & Desert Safari"
+        text3="Old Dubai & Cultural Exploration"
+        text4=" Shopping & Marina District"
+        text5="Adventure & Departure"
+        text6="To Get Personalised Itenary Click The Following Button!"
         img1={bldg1}
         img2={bldg2}
       />
