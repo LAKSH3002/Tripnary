@@ -1,6 +1,5 @@
 import "./NavbarStyles.css";
 import { Link } from "react-router-dom";
-import Signup from "../routes/Signup.js";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -9,6 +8,12 @@ const Navbar = () => {
 
   const handleClick = () => {
     setClicked(!clicked);
+  };
+
+  const navigate = useNavigate(); // Hook for navigation
+
+  const handlebutton = () => {
+    navigate("/Signup"); // Navigate to the "/Signup" page
   };
 
   return (
@@ -37,7 +42,7 @@ const Navbar = () => {
             <i className="fa-solid fa-address-book"></i>
             Contact
           </Link>
-          <Link className="nav-links" to="/signup">
+          <Link className="nav-links">
             Sign up
           </Link>
         </li>
