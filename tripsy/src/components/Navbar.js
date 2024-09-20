@@ -1,5 +1,4 @@
 import "./NavbarStyles.css";
-import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
 import Signup from "../routes/Signup.js";
 import { useState } from "react";
@@ -21,16 +20,27 @@ const Navbar = () => {
       </div>
 
       <ul className={clicked ? "nav-menu active" : "nav-menu"}>
-        {MenuItems.map((item, index) => {
-          return (
-            <li key={index}>
-              <Link className={item.cName} to={item.url}>
-                <i className={item.icon}></i>
-                {item.title}
-              </Link>
-            </li>
-          );
-        })}
+        <li>
+          <Link className="nav-links" to="/">
+            <i className="fa-solid fa-house"></i>
+            Home
+          </Link>
+          <Link className="nav-links" to="/about">
+            <i className="fa-solid fa-circle-info"></i>
+            About
+          </Link>
+          <Link className="nav-links" to="/service">
+            <i className="fa-solid fa-briefcase"></i>
+            Services
+          </Link>
+          <Link className="nav-links" to="/contact">
+            <i className="fa-solid fa-address-book"></i>
+            Contact
+          </Link>
+          <Link className="nav-links" to="/signup">
+            Sign up
+          </Link>
+        </li>
       </ul>
     </nav>
   );

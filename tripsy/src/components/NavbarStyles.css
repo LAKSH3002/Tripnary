@@ -22,16 +22,16 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(6, auto);
-  grid-gap: 10px;
+  grid-gap: 1px;
   list-style: none;
   align-items: center;
 }
 .nav-links {
   text-decoration: none;
   color: #222;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  padding: 0.7rem 1rem;
+  padding: 0.6rem 1rem;
   white-space: nowrap;
 }
 .nav-links i {
