@@ -38,6 +38,10 @@
   padding-bottom: 1rem;
 }
 
+.trip-text p{
+  margin: 2px;
+}
+
 .images-trip {
   position: relative;
   width: 50%;
