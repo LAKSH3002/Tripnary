@@ -1,0 +1,50 @@
+.signup-title{
+    margin-top: 7rem;
+}
+
+.from-container{
+    margin: 0rem 6rem;
+    color: #2a2a2a;
+}
+
+.from-container form{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.from-container input{
+    height: 3.5rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+}
+
+.from-container button{
+    display: inline;
+    background-color: rgb(128, 128, 24);
+    height: 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.from-container button:hover{
+background-color: rgb(240, 227, 227);
+}
+
+@media  screen and (max-width:850px) 
+{
+.from-container{
+    margin: 4rem 2rem;
+}    
+.from-container form
+{
+    padding-top: 2rem;
+    width: 90%;
+    margin: auto;
+}
+}

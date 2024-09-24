@@ -42,7 +42,7 @@ const Navbar = () => {
             <i className="fa-solid fa-address-book"></i>
             Contact
           </Link>
-          <Link className="nav-links">
+          <Link className="nav-links" to="/signup">
             Sign up
           </Link>
         </li>
