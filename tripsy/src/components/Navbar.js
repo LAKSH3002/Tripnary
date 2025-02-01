@@ -1,19 +1,13 @@
 import "./NavbarStyles.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  // a state to handle responsiveness
   const [clicked, setClicked] = useState(false);
 
   const handleClick = () => {
     setClicked(!clicked);
-  };
-
-  const navigate = useNavigate(); // Hook for navigation
-
-  const handlebutton = () => {
-    navigate("/Signup"); // Navigate to the "/Signup" page
   };
 
   return (
